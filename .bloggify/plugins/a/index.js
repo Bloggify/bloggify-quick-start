@@ -1,5 +1,5 @@
 module.exports = (conf, bloggify, ready) => {
-    bloggify.addPage("/", lien => {
+    bloggify.server.addPage("/", lien => {
         lien.end({
             hello: "world"
         })
