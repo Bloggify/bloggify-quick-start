@@ -4,7 +4,9 @@
   "description": "An simple example of a Bloggify website.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production bloggify start > log.txt",
+    "start:dev": "bloggify start"
   },
   "repository": {
     "type": "git",
@@ -12,5 +14,12 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/bloggify/blogigfy-app-example#readme"
+  "homepage": "https://bitbucket.org/bloggify/blogigfy-app-example#readme",
+  "dependencies": {
+    "bloggify-ajs-renderer": "ionicabizau/bloggify-ajs-renderer",
+    "bloggify-cli": "^1.0.0",
+    "bloggify-plugin-manager": "ionicabizau/bloggify-plugin-manager",
+    "bloggify-router": "ionicabizau/bloggify-router",
+    "bloggify-viewer": "ionicabizau/bloggify-viewer"
+  }
 }
