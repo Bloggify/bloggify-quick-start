@@ -8,13 +8,8 @@
     "start": "NODE_ENV=production bloggify start > output.log",
     "start:dev": "bloggify start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/bloggify/starter.git"
-  },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/bloggify/starter#readme",
   "dependencies": {
     "bloggify-ajs-renderer": "^1.0.0",
     "bloggify-cli": "^1.0.0",
@@ -53,5 +48,11 @@
       ],
       "language": "bash"
     }
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bloggify/starter.git"
+  },
+  "homepage": "https://github.com/Bloggify/starter#readme"
 }
