@@ -39,19 +39,19 @@
     "url": "https://github.com/Bloggify/starter/issues"
   },
   "blah": {
-      "title": "Bloggify Starter App",
-      "installation_command": {
-          "content": [
-              "# Clone this repository",
-              "git clone https://github.com/Bloggify/starter",
-              "",
-              "# Install the dependencies",
-              "cd starter && npm i",
-              "",
-              "# Start the app in dev mode",
-              "npm run start:dev"
-          ],
-          "language": "bash"
-      }
+    "title": "Bloggify Starter App",
+    "installation_command": {
+      "content": [
+        "# Clone this repository",
+        "git clone https://github.com/Bloggify/starter",
+        "",
+        "# Install the dependencies",
+        "cd starter && npm i",
+        "",
+        "# Start the app in dev mode",
+        "npm run start:dev"
+      ],
+      "language": "bash"
+    }
   }
 }
