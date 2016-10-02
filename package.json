@@ -16,10 +16,11 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/bloggify/blogigfy-app-example#readme",
   "dependencies": {
-    "bloggify-ajs-renderer": "ionicabizau/bloggify-ajs-renderer",
+    "bloggify-ajs-renderer": "^1.0.0",
     "bloggify-cli": "^1.0.0",
-    "bloggify-plugin-manager": "ionicabizau/bloggify-plugin-manager",
-    "bloggify-router": "ionicabizau/bloggify-router",
-    "bloggify-viewer": "ionicabizau/bloggify-viewer"
+    "bloggify-plugin-manager": "^1.0.0",
+    "bloggify-router": "^1.0.1",
+    "bloggify-theme-light": "^1.0.2",
+    "bloggify-viewer": "^1.0.1"
   }
 }
