@@ -1,20 +1,20 @@
 {
-  "name": "bloggify-app-example",
+  "name": "bloggify-starter",
   "version": "1.0.0",
-  "description": "An simple example of a Bloggify website.",
-  "main": "index.js",
+  "description": "A simple example of a Bloggify app.",
+  "main": "bloggify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=production bloggify start > log.txt",
+    "start": "NODE_ENV=production bloggify start > output.log",
     "start:dev": "bloggify start"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/bloggify/blogigfy-app-example.git"
+    "url": "git+ssh://git@bitbucket.org/bloggify/starter.git"
   },
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/bloggify/blogigfy-app-example#readme",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/bloggify/starter#readme",
   "dependencies": {
     "bloggify-ajs-renderer": "^1.0.0",
     "bloggify-cli": "^1.0.0",
@@ -22,5 +22,36 @@
     "bloggify-router": "^1.0.1",
     "bloggify-theme-light": "^1.0.2",
     "bloggify-viewer": "^1.0.1"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "cli.js",
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/Bloggify/starter/issues"
+  },
+  "blah": {
+      "title": "Bloggify Starter App",
+      "installation_command": {
+          "content": [
+              "# Clone this repository",
+              "git clone https://github.com/Bloggify/starter",
+              "",
+              "# Install the dependencies",
+              "cd starter && npm i",
+              "",
+              "# Start the app in dev mode",
+              "npm run start:dev"
+          ],
+          "language": "bash"
+      }
   }
 }
