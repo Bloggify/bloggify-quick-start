@@ -15,7 +15,7 @@
     "bloggify-cli": "^1.0.0",
     "bloggify-plugin-manager": "^1.0.0",
     "bloggify-router": "^1.0.1",
-    "bloggify-theme-light": "^1.0.2",
+    "bloggify-theme-light": "^1.0.3",
     "bloggify-viewer": "^1.0.1"
   },
   "files": [
