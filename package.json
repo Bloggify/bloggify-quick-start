@@ -13,6 +13,7 @@
   "dependencies": {
     "bloggify-ajs-renderer": "^1.0.0",
     "bloggify-cli": "^1.0.0",
+    "bloggify-config": "^1.0.1",
     "bloggify-plugin-manager": "^1.0.0",
     "bloggify-router": "^1.0.1",
     "bloggify-theme-light": "^1.0.3",
