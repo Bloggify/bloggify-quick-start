@@ -7,4 +7,14 @@ module.exports = conf({
   , description: "Welcome to <strong>Bloggify Starter</strong>!"
   , domain: "https://example.com"
   , theme: "bloggify-theme-light"
+  , plugins: [
+        "bloggify-custom-assets"
+    ]
+  , config: {
+        bloggifyCustomAssets: {
+            server: [
+                "hook.js"
+            ]
+        }
+    }
 });

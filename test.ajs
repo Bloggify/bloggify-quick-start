@@ -1,0 +1,6 @@
+<h3><%= title %></h3>
+<% if (user) { %>
+    <label>User:<label> <span><%= user.name %></span>
+<% } else { %>
+    <p>User not found.</p>
+<% } %>
