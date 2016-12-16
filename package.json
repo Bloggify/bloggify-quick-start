@@ -11,9 +11,10 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "MIT",
   "dependencies": {
+    "bloggify-cli": "^1.0.0",
     "bloggify-config": "^1.0.1",
-    "bloggify-theme-light": "^1.0.3",
-    "bloggify-cli": "^1.0.0"
+    "bloggify-custom-assets": "github:ionicabizau/bloggify-custom-assets",
+    "bloggify-theme-light": "^1.0.3"
   },
   "files": [
     "bin/",
