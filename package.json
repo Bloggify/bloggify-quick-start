@@ -8,7 +8,7 @@
     "start": "NODE_ENV=production bloggify start > output.log",
     "start:dev": "bloggify start"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "license": "MIT",
   "dependencies": {
     "bloggify-config": "^1.0.1",
