@@ -12,7 +12,9 @@
   "license": "MIT",
   "dependencies": {
     "bloggify": "0.0.0-alpha5",
+    "bloggify-emoji": "^3.0.0",
     "bloggify-markdown-adapter": "^2.0.0",
+    "bloggify-markdown-highlight": "^2.0.1",
     "bloggify-theme-light": "^2.0.1"
   },
   "files": [
