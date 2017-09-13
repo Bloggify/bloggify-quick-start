@@ -1,10 +1,18 @@
 "use strict";
 
-const conf = require("bloggify-config");
-
-module.exports = conf({
+module.exports = {
     title: "Bloggify Starter"
-  , description: "Welcome to <strong>Bloggify Starter</strong>!"
+  , description: "Welcome to Bloggify Starter!"
   , domain: "https://example.com"
-  , theme: "bloggify-theme-light"
-});
+
+    // This will enable the Articles/Pages APIs
+  , adapter: ["bloggify-markdown-adapter", {
+        theme: ["theme-light", {
+            options: {
+                social: {
+                    twitter: "Bloggify"
+                }
+            }
+        }]
+    }]
+}

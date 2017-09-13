@@ -11,9 +11,9 @@
   "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "license": "MIT",
   "dependencies": {
-    "bloggify-config": "^1.0.1",
-    "bloggify-theme-light": "^1.0.3",
-    "bloggify-cli": "^1.0.0"
+    "bloggify": "0.0.0-alpha5",
+    "bloggify-markdown-adapter": "^2.0.0",
+    "bloggify-theme-light": "^2.0.1"
   },
   "files": [
     "bin/",
