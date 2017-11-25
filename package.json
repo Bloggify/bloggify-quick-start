@@ -2,7 +2,7 @@
   "name": "bloggify-bloggify-quick-start",
   "version": "2.0.0",
   "description": "A simple example of a Bloggify app.",
-  "main": "bloggify.js",
+  "main": "bloggify.json",
   "scripts": {
     "start": "NODE_ENV=production bloggify start",
     "start:dev": "bloggify start"
