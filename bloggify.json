@@ -1,0 +1,18 @@
+{
+    "title": "Bloggify Starter"
+  , "description": "Welcome to Bloggify Starter!"
+  , "domain": "https://example.com"
+  , "plugins": [
+      "emoji"
+    , ["markdown-highlight", { "theme": "ascetic" }]
+    ]
+  , "adapter": ["bloggify-markdown-adapter", {
+        "theme": ["theme-light", {
+            "options": {
+                "social": {
+                    "twitter": "Bloggify"
+                }
+            }
+        }]
+    }]
+}
