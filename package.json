@@ -4,8 +4,7 @@
   "description": "A simple example of a Bloggify app.",
   "main": "bloggify.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=production bloggify start > output.log",
+    "start": "NODE_ENV=production bloggify start",
     "start:dev": "bloggify start"
   },
   "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
