@@ -4,13 +4,13 @@
   "description": "A simple example of a Bloggify app.",
   "main": "bloggify.json",
   "scripts": {
-    "start": "NODE_ENV=production bloggify start",
+    "start": "bloggify-prod-start",
     "start:dev": "bloggify start"
   },
   "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "license": "MIT",
   "dependencies": {
-    "bloggify": "0.0.0-alpha24",
+    "bloggify": "0.0.0-alpha25",
     "bloggify-emoji": "^3.0.0",
     "bloggify-markdown-adapter": "^2.0.0",
     "bloggify-markdown-highlight": "^2.0.1",
