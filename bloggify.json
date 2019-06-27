@@ -7,7 +7,13 @@
     , ["markdown-highlight", { "theme": "ascetic" }]
     ]
   , "adapter": ["bloggify-markdown-adapter", {
-        "theme": ["theme-light", {
+        "routes": {
+            "articles": "/blog",
+            "blog_url": "/blog",
+            "blog": "blog",
+            "home": "home"
+        }
+      , "theme": ["theme-light", {
             "options": {
                 "social": {
                     "twitter": "Bloggify"

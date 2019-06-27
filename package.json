@@ -10,11 +10,11 @@
   "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "license": "MIT",
   "dependencies": {
-    "bloggify": "0.0.0-alpha25",
+    "bloggify": "^1.4.0",
     "bloggify-emoji": "^3.0.0",
-    "bloggify-markdown-adapter": "^2.0.0",
+    "bloggify-markdown-adapter": "^2.0.6",
     "bloggify-markdown-highlight": "^2.0.1",
-    "bloggify-theme-light": "^2.0.1"
+    "bloggify-theme-light": "^2.0.5"
   },
   "files": [
     "bin/",
@@ -51,5 +51,8 @@
     "type": "git",
     "url": "git+https://github.com/Bloggify/bloggify-quick-start.git"
   },
-  "homepage": "https://github.com/Bloggify/bloggify-quick-start#readme"
+  "homepage": "https://github.com/Bloggify/bloggify-quick-start#readme",
+  "devDependencies": {
+    "bloggify-cli": "^1.4.0"
+  }
 }
