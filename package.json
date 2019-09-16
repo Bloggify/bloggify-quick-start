@@ -10,7 +10,7 @@
   "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "license": "MIT",
   "dependencies": {
-    "bloggify": "^1.4.0",
+    "bloggify": "^1.4.6",
     "bloggify-emoji": "^3.0.0",
     "bloggify-markdown-adapter": "^2.0.6",
     "bloggify-markdown-highlight": "^2.0.1",
@@ -53,6 +53,6 @@
   },
   "homepage": "https://github.com/Bloggify/bloggify-quick-start#readme",
   "devDependencies": {
-    "bloggify-cli": "^1.4.0"
+    "bloggify-cli": "^1.4.6"
   }
 }
