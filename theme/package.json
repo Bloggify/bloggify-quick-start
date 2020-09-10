@@ -1,0 +1,14 @@
+{
+    "bloggify": {
+        "scripts": [
+            "http://localhost:8080/theme/bundle.js"
+        ],
+        "templates": [
+            "404.ajs",
+            "500.ajs",
+            "blog.ajs",
+            "package.json",
+            "site-page.ajs"
+        ]
+    }
+}

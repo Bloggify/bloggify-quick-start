@@ -1,0 +1,3 @@
+<% include("head") %>
+<% include("layout") %>
+<% include("footer") %>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <%- Bloggify.assets.html() %>
+        <script>
+            <%
+                Bloggify.adapter.getAllPages(function (err, pages) {
+                    page.sitePages = pages;
+            %>
+                    window.__data = <%- JSON.stringify(page) %>
+            <%
+                });
+            %>
+        </script>
+    </head>
+    <body>
