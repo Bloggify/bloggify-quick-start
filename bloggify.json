@@ -5,6 +5,15 @@
   , "plugins": [
       "emoji"
     , ["markdown-highlight", { "theme": "ascetic" }]
+    , ["api", {}]
+    , ["renderer-pug", {}]
+    , ["dashboard", {
+        "users": {
+            "admin": {
+                "password": "changethis"
+            }
+        }
+      }]
     ]
   , "adapter": ["bloggify-markdown-adapter", {
         "routes": {

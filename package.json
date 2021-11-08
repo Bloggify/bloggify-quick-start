@@ -5,16 +5,20 @@
   "main": "bloggify.json",
   "scripts": {
     "start": "bloggify-prod-start",
-    "start:dev": "bloggify start"
+    "start:dev": "bloggify start",
+    "start:debug": "node debug `which bloggify` start -r"
   },
   "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "license": "MIT",
   "dependencies": {
-    "bloggify": "^1.4.6",
-    "bloggify-emoji": "^3.0.0",
-    "bloggify-markdown-adapter": "^2.0.6",
-    "bloggify-markdown-highlight": "^2.0.1",
-    "bloggify-theme-light": "^2.0.5"
+    "bloggify": "^1.8.1",
+    "bloggify-api": "^2.0.0",
+    "bloggify-dashboard": "^1.0.0",
+    "bloggify-emoji": "^3.0.1",
+    "bloggify-markdown-adapter": "^2.0.7",
+    "bloggify-markdown-highlight": "^2.0.2",
+    "bloggify-renderer-pug": "^1.0.0",
+    "bloggify-theme-light": "^2.0.6"
   },
   "files": [
     "bin/",
@@ -53,6 +57,6 @@
   },
   "homepage": "https://github.com/Bloggify/bloggify-quick-start#readme",
   "devDependencies": {
-    "bloggify-cli": "^1.4.6"
+    "bloggify-cli": "^1.8.1"
   }
 }
