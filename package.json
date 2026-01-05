@@ -11,14 +11,14 @@
   "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
   "license": "MIT",
   "dependencies": {
-    "bloggify": "^1.8.1",
+    "bloggify": "^3.2.0",
     "bloggify-api": "^2.0.0",
     "bloggify-dashboard": "^1.0.0",
     "bloggify-emoji": "^3.0.1",
-    "bloggify-markdown-adapter": "^2.0.7",
-    "bloggify-markdown-highlight": "^2.0.2",
+    "bloggify-markdown-adapter": "^3.0.0",
+    "bloggify-markdown-highlight": "^3.0.0",
     "bloggify-renderer-pug": "^1.0.0",
-    "bloggify-theme-light": "^2.0.6"
+    "bloggify-theme-light": "^3.0.0"
   },
   "files": [
     "bin/",
@@ -57,6 +57,6 @@
   },
   "homepage": "https://github.com/Bloggify/bloggify-quick-start#readme",
   "devDependencies": {
-    "bloggify-cli": "^1.8.1"
+    "bloggify-cli": "^3.2.0"
   }
 }
